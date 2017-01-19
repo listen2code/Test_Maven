@@ -1,4 +1,4 @@
-package com.listen.test_maven;
+package com.listen.maven_lib;
 
 import android.content.Context;
 import android.widget.Toast;
