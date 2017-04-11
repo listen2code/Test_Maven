@@ -5,11 +5,10 @@ import android.widget.Toast;
 
 /**
  * @author listen
- * @desc
  */
 public class TestMavenUtil {
 
     public static void showToast(Context context, String message) {
-        Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "1.0.3：" + message, Toast.LENGTH_SHORT).show();
     }
 }

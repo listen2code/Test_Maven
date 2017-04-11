@@ -1,8 +1,11 @@
 package com.listen.test_maven;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import com.listen.maven_lib.TestMavenUtil;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,5 +19,8 @@ public class MainActivity extends AppCompatActivity {
                 TestMavenUtil.showToast(MainActivity.this, "测试");
             }
         });
+        Intent intent = new Intent();
+        intent.clone();
+
     }
 }
